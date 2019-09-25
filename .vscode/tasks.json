@@ -1,0 +1,9 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    // https://stackoverflow.com/questions/46245476/configure-task-using-python-in-visual-studio-code-for-windows-10
+    // https://stackoverflow.com/questions/45409845/configure-vs-code-version-2-0-0-build-task-for-python
+    "version": "2.0.0",
+    "command": "python",
+    "args":["${file}"]
+}
