@@ -14,7 +14,7 @@ After installing all the requirements, you can deploy it in local environment fi
 (venv) $ funicorn app:app -b 0.0.0.0:<port #>
 ```
 
-Next, `runtime.txt` and `Procfile` should contain the current python version and bootup info of heroku respectively. Then push it to github and create the heroku app.
+`runtime.txt` and `Procfile` should contain the current python version and bootup info of heroku respectively before we push them to github.
 ```
 (venv) $ git add .
 (venv) $ git commit -m "update"
@@ -25,7 +25,7 @@ Next, `runtime.txt` and `Procfile` should contain the current python version and
 (venv) $ git push heroku master
 ```
 
-We can actually start the server by this command which heroku calls Dinos.
+We can actually start the server which heroku calls Dinos with the command below.
 ```
 (venv) $ heroku ps:scale web=1
 ```
