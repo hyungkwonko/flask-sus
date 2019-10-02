@@ -11,7 +11,7 @@ $ source venv/bin/activate
 ```
 After installing all the requirements, you can deploy it in local environment first. The port number below can be changed.
 ```
-(venv) $ funicorn app:app -b 0.0.0.0:<port #>
+(venv) $ gunicorn app:app -b 0.0.0.0:<port #>
 ```
 
 `runtime.txt` and `Procfile` should contain the current python version and bootup info of heroku respectively before we push them to github.
