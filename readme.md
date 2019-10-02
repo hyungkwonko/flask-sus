@@ -2,7 +2,7 @@ Original source code: [here](https://github.com/jakerieger/FlaskIntroduction) by
 For the deployment, I found this [video](https://www.youtube.com/watch?v=TEuPE5pUh2w) helpful.
 
 ### Usage (Ubuntu)
-After cloning this repo, and run the virtual env
+After cloning this repo, we can run the virtual env
 ```
 $ cd flask-sus
 $ virtualenv -p python3 venv
