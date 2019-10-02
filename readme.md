@@ -34,6 +34,5 @@ To shut down the app, you can change the type = 0.
 ```
 (venv) $ heroku ps:scale web=0
 (venv) $ deactivate
-$
 ```
 
