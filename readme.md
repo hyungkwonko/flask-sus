@@ -1,5 +1,5 @@
 Original source code: [here](https://github.com/jakerieger/FlaskIntroduction) by [Jake Rieger](https://github.com/jakerieger).
-For the deployment, I found this [video](https://www.youtube.com/watch?v=TEuPE5pUh2w) helpful.
+For the deployment, I found [this video](https://www.youtube.com/watch?v=TEuPE5pUh2w) helpful.
 
 ### Usage (Ubuntu)
 After cloning this repo, we can run the virtual env
